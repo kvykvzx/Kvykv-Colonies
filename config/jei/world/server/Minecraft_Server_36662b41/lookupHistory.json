@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:grindstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecolonies:clipboard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecolonies:blockpostbox"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecolonies:resourcescroll","components":{"minecolonies:colony_id":{"id":1,"dimension":"minecraft:overworld"},"minecolonies:building_id":{"id":[-3785,72,12109]},"minecolonies:warehouse_snapshot":{"snapshot":{},"hash":""}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

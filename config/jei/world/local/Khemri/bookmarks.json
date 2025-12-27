@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create:mechanical_mixer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:basin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:mud"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"create:crafting/logistics/andesite_funnel","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]

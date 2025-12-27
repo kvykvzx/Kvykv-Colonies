@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecolonies:supplychestdeployer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecolonies:supplycampdeployer"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
