@@ -28,13 +28,13 @@
 	#PATROL: pillager patrols
 	#TRIGGERED: skeleton horse traps and warden from sculk shriekers
 	#Default Value: [NATURAL, PATROL, STRUCTURE, JOCKEY]
-	#Allowed Values: natural, spawner, structure, mob_summoned, jockey, event, reinforcement, patrol, triggered
+	#Allowed Values: NATURAL, SPAWNER, STRUCTURE, MOB_SUMMONED, JOCKEY, EVENT, REINFORCEMENT, PATROL, TRIGGERED
 	blocked_spawn_types = ["NATURAL", "PATROL", "STRUCTURE", "JOCKEY"]
 	#Mobs of this category are prevented from spawning through natural means (e.g. mob spawners and breeding will still work).
 	#For refining affected mobs use blacklist and whitelist options.
 	#If you only want to prevent a few mob types from spawning that do not fit any category leave this list empty and include them in the blacklist option.
 	#Default Value: [MONSTER]
-	#Allowed Values: monster, creature, ambient, axolotls, underground_water_creature, water_creature, water_ambient
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, AXOLOTLS, UNDERGROUND_WATER_CREATURE, WATER_CREATURE, WATER_AMBIENT
 	mob_category = ["MONSTER"]
 	#Range for preventing mob spawns on x-z-plane.
 	#Default Value: 64
@@ -72,13 +72,13 @@
 	#PATROL: pillager patrols
 	#TRIGGERED: skeleton horse traps and warden from sculk shriekers
 	#Default Value: [NATURAL, EVENT]
-	#Allowed Values: natural, spawner, structure, mob_summoned, jockey, event, reinforcement, patrol, triggered
+	#Allowed Values: NATURAL, SPAWNER, STRUCTURE, MOB_SUMMONED, JOCKEY, EVENT, REINFORCEMENT, PATROL, TRIGGERED
 	blocked_spawn_types = ["NATURAL", "EVENT"]
 	#Mobs of this category are prevented from spawning through natural means (e.g. mob spawners and breeding will still work).
 	#For refining affected mobs use blacklist and whitelist options.
 	#If you only want to prevent a few mob types from spawning that do not fit any category leave this list empty and include them in the blacklist option.
 	#Default Value: [CREATURE]
-	#Allowed Values: monster, creature, ambient, axolotls, underground_water_creature, water_creature, water_ambient
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, AXOLOTLS, UNDERGROUND_WATER_CREATURE, WATER_CREATURE, WATER_AMBIENT
 	mob_category = ["CREATURE"]
 	#Range for preventing mob spawns on x-z-plane.
 	#Default Value: 128
@@ -116,13 +116,13 @@
 	#PATROL: pillager patrols
 	#TRIGGERED: skeleton horse traps and warden from sculk shriekers
 	#Default Value: [NATURAL]
-	#Allowed Values: natural, spawner, structure, mob_summoned, jockey, event, reinforcement, patrol, triggered
+	#Allowed Values: NATURAL, SPAWNER, STRUCTURE, MOB_SUMMONED, JOCKEY, EVENT, REINFORCEMENT, PATROL, TRIGGERED
 	blocked_spawn_types = ["NATURAL"]
 	#Mobs of this category are prevented from spawning through natural means (e.g. mob spawners and breeding will still work).
 	#For refining affected mobs use blacklist and whitelist options.
 	#If you only want to prevent a few mob types from spawning that do not fit any category leave this list empty and include them in the blacklist option.
 	#Default Value: [AMBIENT, AXOLOTLS, WATER_AMBIENT, WATER_CREATURE, UNDERGROUND_WATER_CREATURE]
-	#Allowed Values: monster, creature, ambient, axolotls, underground_water_creature, water_creature, water_ambient
+	#Allowed Values: MONSTER, CREATURE, AMBIENT, AXOLOTLS, UNDERGROUND_WATER_CREATURE, WATER_CREATURE, WATER_AMBIENT
 	mob_category = ["AMBIENT", "AXOLOTLS", "WATER_AMBIENT", "WATER_CREATURE", "UNDERGROUND_WATER_CREATURE"]
 	#Range for preventing mob spawns on x-z-plane.
 	#Default Value: 64

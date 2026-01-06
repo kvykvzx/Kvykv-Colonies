@@ -215,6 +215,9 @@ _version = 3
 		# This can be useful for debugging.
 		logRendererGLEventToFile = "INFO"
 		#
+		# If enabled, config changes sent by the server will be logged.
+		logConnectionConfigChangesToFile = "WARN"
+		#
 		# If enabled, the mod will log information about the renderer OpenGL process. 
 		# This can be useful for debugging.
 		logRendererGLEvent = "LOG_ERROR_TO_CHAT_AND_INFO_TO_FILE"
@@ -600,6 +603,10 @@ _version = 3
 				# Higher numbers will improve quality and reduce banding, but will increase GPU load.
 				sampleCount = 6
 				#
+				# The distance in blocks from the camera where the SSAO will fade out to. 
+				# This is done to prevent banding and noise at extreme distances.
+				fadeDistanceInBlocks = 1600
+				#
 				# Determines how dark the Screen Space Ambient Occlusion effect will be.
 				strength = "0.2"
 				#
@@ -646,6 +653,15 @@ _version = 3
 				# and other graphical bugs.
 				onlyLoadCenterLods = false
 				#
+				# A comma separated list of dimension resource locations where DH won't render. 
+				# 
+				# Example: "minecraft:the_nether,minecraft:the_end"
+				# 
+				# Note:
+				# Some DH settings will be disabled and/or changed to improve 
+				# visuals when DH rendering is disabled.
+				ignoredDimensionCsv = ""
+				#
 				# This is the earth size ratio when applying the curvature shader effect. 
 				# Note: Enabling this feature may cause rendering bugs. 
 				# 
@@ -654,7 +670,7 @@ _version = 3
 				# 100 = 1 to 100 (63,710 blocks) 
 				# 10000 = 1 to 10000 (637.1 blocks) 
 				# 
-				# Note: Due to current limitations, the min value is 50 
+				# Note: Due to current limitations, the min value is [50] 
 				# and the max value is 5000. Any values outside this range 
 				# will be set to 0 (disabled).
 				earthCurveRatio = 0
